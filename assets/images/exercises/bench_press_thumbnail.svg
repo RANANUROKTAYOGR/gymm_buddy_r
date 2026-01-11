@@ -1,0 +1,40 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-bench" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C86DD7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#grad-bench)" opacity="0.2"/>
+  <rect width="400" height="300" fill="#1A1F3A"/>
+  <rect width="400" height="300" fill="url(#grad-bench)" opacity="0.3"/>
+  
+  <g transform="translate(200, 150)">
+    <!-- Bench -->
+    <rect x="-80" y="40" width="160" height="20" fill="#555" rx="4"/>
+    <rect x="-70" y="60" width="10" height="30" fill="#444" rx="2"/>
+    <rect x="60" y="60" width="10" height="30" fill="#444" rx="2"/>
+    
+    <!-- Person (Simplified) -->
+    <circle cx="0" cy="0" r="18" fill="#FFB8C1"/>
+    <ellipse cx="0" cy="35" rx="35" ry="25" fill="#FF6B9D"/>
+    
+    <!-- Barbell -->
+    <line x1="-100" y1="-30" x2="100" y2="-30" stroke="#00FFA3" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-85" cy="-30" r="15" fill="none" stroke="#00FFA3" stroke-width="6"/>
+    <circle cx="85" cy="-30" r="15" fill="none" stroke="#00FFA3" stroke-width="6"/>
+    <circle cx="-85" cy="-30" r="10" fill="#00FFA3" opacity="0.3"/>
+    <circle cx="85" cy="-30" r="10" fill="#00FFA3" opacity="0.3"/>
+    
+    <!-- Arms -->
+    <line x1="-30" y1="20" x2="-70" y2="-20" stroke="#FFB8C1" stroke-width="8" stroke-linecap="round"/>
+    <line x1="30" y1="20" x2="70" y2="-20" stroke="#FFB8C1" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Title -->
+    <text x="0" y="110" text-anchor="middle" fill="white" font-size="20" font-weight="bold">
+      BENCH PRESS
+    </text>
+  </g>
+</svg>
